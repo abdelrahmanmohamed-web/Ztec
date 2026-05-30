@@ -42,3 +42,6 @@ next-env.d.ts
 
 # scripts
 scripts
+
+etec-next-ts.xml
+repomix-output.xml
