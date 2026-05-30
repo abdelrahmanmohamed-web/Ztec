@@ -1,0 +1,60 @@
+{
+  "customer_reviews": {
+    "headphones": [
+      {
+        "author": "Alex K.",
+        "comment": "I couldn't be happier with my purchase from this store. The headphones I bought exceeded my expectations in terms of sound quality and comfort. Plus, the customer service was excellent. Highly recommend!"
+      },
+      {
+        "author": "Emily J.",
+        "comment": "I was skeptical about buying headphones online, but I'm so glad I did. These headphones are fantastic! They're comfortable to wear for long periods, and the sound quality is amazing. Definitely worth every penny."
+      },
+      {
+        "author": "Michael S.",
+        "comment": "I've been searching for the perfect pair of headphones for ages, and I finally found them here. Not only do they sound incredible, but they're also durable and well-designed. I use them every day and couldn't be happier with my purchase."
+      }
+    ],
+    "watches": [
+      {
+        "author": "Ryan I.",
+        "comment": "I was skeptical about wearing a smartwatch at first, but the eWatch has truly won me over. It's become an essential part of my daily routine, helping me stay connected and productive wherever I go."
+      },
+      {
+        "author": "Peter K.",
+        "comment": "I've tried other smartwatches before, but none compare to my eWatch. The sleek design and intuitive interface make it a joy to use, and the fitness tracking features have motivated me to stay active like never before."
+      },
+      {
+        "author": "Tomas B.",
+        "comment": "I can't imagine my day without my eWatch now. It's not just a timepiece; it's my personal assistant, keeping me organized and on track throughout the day."
+      }
+    ],
+    "displays": [
+      {
+        "author": "Sarah C",
+        "comment": "The eDisplay monitor I purchased from this store has completely transformed my work setup. The display quality is stunning, and I love how seamless it is to connect to my devices. It's made a noticeable difference in my productivity and overall workflow."
+      },
+      {
+        "author": "Jason M",
+        "comment": "I was hesitant to invest in a new monitor, but I'm so glad I did. The eDisplay monitor exceeded my expectations in terms of both performance and design. It's sleek, it's vibrant, and it's made my gaming and movie-watching experiences so much more immersive."
+      },
+      {
+        "author": "Emily K",
+        "comment": "I've been using the eDisplay monitor for a few weeks now, and I'm blown away by its versatility. Whether I'm editing photos or streaming videos, the colors are always accurate and vibrant. It's definitely raised the bar for what I expect from a monitor."
+      }
+    ],
+    "phones": [
+      {
+        "author": "John J.",
+        "comment": "The iPhone has been an absolute game-changer for me. From its seamless performance to its stunning camera quality, it's exceeded all my expectations. I can't imagine ever going back to another smartphone."
+      },
+      {
+        "author": "Isabel O.",
+        "comment": "I've been a loyal iPhone user for years, and the latest model continues to impress. The battery life is phenomenal, the interface is intuitive, and the overall experience is simply unmatched. It's truly the best smartphone on the market"
+      },
+      {
+        "author": "Caroline P.",
+        "comment": "I was hesitant to switch to the iPhone at first, but now I can't imagine my life without it. The reliability, the speed, and the sleek design are just some of the reasons why I'm a proud iPhone owner. It's more than just a phone; it's a lifestyle."
+      }
+    ]
+  }
+}

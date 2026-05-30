@@ -1,0 +1,466 @@
+[
+  {
+    "id": 101,
+    "folderId": "1",
+    "name": "eDisplay XE",
+    "price": 649.99,
+    "category": "displays",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
+      ]
+    },
+    "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
+  },
+  {
+    "id": 102,
+    "folderId": "2",
+    "name": "eDisplay XG",
+    "price": 649.99,
+    "category": "displays",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
+      ]
+    },
+    "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
+  },
+  {
+    "id": 103,
+    "folderId": "3",
+    "name": "eDisplay XR",
+    "price": 649.99,
+    "category": "displays",
+    "featured": true,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
+      ]
+    },
+    "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
+  },
+  {
+    "id": 104,
+    "folderId": "4",
+    "name": "eDisplay XS",
+    "price": 649.99,
+    "category": "displays",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
+      ]
+    },
+    "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
+  },
+  {
+    "id": 201,
+    "folderId": "5",
+    "name": "eWatch SF 3 Black",
+    "price": 319.99,
+    "category": "watches",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": ["1.png"],
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Fitness Tracking",
+        "Versatile Design",
+        "Effortless Connectivity"
+      ],
+      "p": [
+        "Monitor your health and fitness goals with precision, tracking your activity, heart rate, and more.",
+        "Elevate your look with a sleek and modern design that seamlessly transitions from the gym to the boardroom.",
+        "Seamlessly stay in touch with your world, receiving notifications and calls directly on your wrist."
+      ]
+    },
+    "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
+  },
+  {
+    "id": 202,
+    "folderId": "6",
+    "name": "eWatch SF 3 white",
+    "price": 319.99,
+    "category": "watches",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": ["1.png"],
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Fitness Tracking",
+        "Versatile Design",
+        "Effortless Connectivity"
+      ],
+      "p": [
+        "Monitor your health and fitness goals with precision, tracking your activity, heart rate, and more.",
+        "Elevate your look with a sleek and modern design that seamlessly transitions from the gym to the boardroom.",
+        "Seamlessly stay in touch with your world, receiving notifications and calls directly on your wrist."
+      ]
+    },
+    "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
+  },
+  {
+    "id": 203,
+    "folderId": "7",
+    "name": "eWatch SF 4",
+    "price": 349.99,
+    "category": "watches",
+    "featured": true,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": ["1.png"],
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Fitness Tracking",
+        "Versatile Design",
+        "Effortless Connectivity"
+      ],
+      "p": [
+        "Monitor your health and fitness goals with precision, tracking your activity, heart rate, and more.",
+        "Elevate your look with a sleek and modern design that seamlessly transitions from the gym to the boardroom.",
+        "Seamlessly stay in touch with your world, receiving notifications and calls directly on your wrist."
+      ]
+    },
+    "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
+  },
+  {
+    "id": 301,
+    "folderId": "8",
+    "name": "Headphones e-11g",
+    "price": 97.99,
+    "category": "headphones",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
+    },
+    "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
+  },
+  {
+    "id": 302,
+    "folderId": "9",
+    "name": "Headphones or-27n",
+    "price": 97.99,
+    "category": "headphones",
+    "featured": true,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
+    },
+    "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
+  },
+  {
+    "id": 303,
+    "folderId": "10",
+    "name": "Headphones w-96-c",
+    "price": 129.99,
+    "category": "headphones",
+    "featured": true,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
+    },
+    "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
+  },
+  {
+    "id": 304,
+    "folderId": "11",
+    "name": "Headphones w-99",
+    "price": 129.99,
+    "category": "headphones",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
+    },
+    "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
+  },
+  {
+    "id": 305,
+    "folderId": "12",
+    "name": "Headphones x-28m",
+    "price": 149.99,
+    "category": "headphones",
+    "featured": true,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
+    },
+    "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
+  },
+  {
+    "id": 306,
+    "folderId": "13",
+    "name": "Headphones z-23c",
+    "price": 149.99,
+    "category": "headphones",
+    "featured": false,
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
+    },
+    "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
+  },
+  {
+    "id": 401,
+    "folderId": "14",
+    "name": "iPhone 15 Black",
+    "price": 799.99,
+    "featured": false,
+    "category": "phones",
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Powerful Performance",
+        "Innovative Features",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience lightning-fast processing speeds and smooth multitasking, empowering you to tackle any task with ease and efficiency.",
+        "Explore a wealth of innovative features and apps designed to streamline your daily life, from augmented reality experiences to voice-activated assistants.",
+        "Make a statement with the iPhone's sleek and elegant design, crafted from premium materials for a sophisticated look and feel."
+      ]
+    },
+    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
+  },
+  {
+    "id": 402,
+    "folderId": "15",
+    "name": "iPhone 15 Red",
+    "price": 799.99,
+    "featured": false,
+    "category": "phones",
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Powerful Performance",
+        "Innovative Features",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience lightning-fast processing speeds and smooth multitasking, empowering you to tackle any task with ease and efficiency.",
+        "Explore a wealth of innovative features and apps designed to streamline your daily life, from augmented reality experiences to voice-activated assistants.",
+        "Make a statement with the iPhone's sleek and elegant design, crafted from premium materials for a sophisticated look and feel."
+      ]
+    },
+    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
+  },
+  {
+    "id": 403,
+    "folderId": "16",
+    "name": "iPhone 15 White",
+    "price": 799.99,
+    "featured": false,
+    "category": "phones",
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png"],
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Powerful Performance",
+        "Innovative Features",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience lightning-fast processing speeds and smooth multitasking, empowering you to tackle any task with ease and efficiency.",
+        "Explore a wealth of innovative features and apps designed to streamline your daily life, from augmented reality experiences to voice-activated assistants.",
+        "Make a statement with the iPhone's sleek and elegant design, crafted from premium materials for a sophisticated look and feel."
+      ]
+    },
+    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
+  }
+]
