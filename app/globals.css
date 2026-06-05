@@ -131,6 +131,17 @@
     @apply border-border outline-ring/50;
     /* outline: 1px solid red; */
   }
+  html {
+    scrollbar-gutter: stable;
+    scrollbar-width: none;
+    ms-overflow-style: none;
+  }
+  [data-scroll-locked] {
+    margin-right: var(--removed-body-scroll-bar-size, 0px) !important;
+  }
+  html::-webkit-scrollbar {
+    display: none;
+  }
   body {
     @apply bg-background text-foreground;
   }

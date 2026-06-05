@@ -1,5 +1,5 @@
-import UpdatePassword from "@/components/auth/reset/update-password";
+import { UpdatePassword } from "@/features/auth";
 
-export default function rest() {
+export default function UpdatePasswordPage() {
   return <UpdatePassword />;
 }

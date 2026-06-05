@@ -3,6 +3,9 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Header } from "@/components/shared/header/header";
+import { UserMenu } from "@/features/auth/index";
+import { Footer } from "@/components/shared/footer/footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -23,9 +26,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html
       lang="en"
@@ -46,7 +49,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header userMenuSlot={<UserMenu />} />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

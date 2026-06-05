@@ -1,6 +1,3 @@
-export default function app(){
-    return (
-        <>
-        hello</>
-    )
+export default function CheckOutPage() {
+  return <>hello</>;
 }

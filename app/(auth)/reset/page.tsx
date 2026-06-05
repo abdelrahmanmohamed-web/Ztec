@@ -1,5 +1,5 @@
-import RequestReset from "@/components/auth/reset/reset";
+import { RequestReset } from "@/features/auth";
 
-export default function rest() {
+export default function RequestResetPage() {
   return <RequestReset />;
 }

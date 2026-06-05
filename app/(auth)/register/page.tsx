@@ -1,4 +1,4 @@
-import Register from "@/components/auth/register/register";
-export default function register() {
+import { Register } from "@/features/auth";
+export default function RegisterPage() {
   return <Register />;
 }
