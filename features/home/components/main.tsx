@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import MainButton from "@/components/shared/button";
 import { CardImage } from "@/components/shared/card";
-import { getProducts} from "@/features/products";
-import { Product} from "@/components/shared/types";
+import { getProducts } from "@/features/products";
+import { Product } from "@/components/shared/types";
 import { Categories } from "./categories";
 import { ArticlesSection } from "./articles";
 export async function Home() {
@@ -25,14 +25,7 @@ export async function Home() {
                 premium goods and curated essentials.
               </p>
             </div>
-
-            <Button
-              asChild
-              size="lg"
-              className="rounded-full border border-zinc-200 bg-white px-8 py-6 text-base font-medium text-black shadow-sm transition-colors duration-300 hover:bg-black hover:text-white dark:border-zinc-800 dark:bg-zinc-900 dark:text-white dark:hover:bg-white dark:hover:text-black shrink-0 self-start md:self-auto"
-            >
-              <Link href="/products">Browse all products</Link>
-            </Button>
+            <MainButton text="Browse all products" href="/products" />
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full">

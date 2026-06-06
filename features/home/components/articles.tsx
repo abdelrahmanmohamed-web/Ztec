@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import MainButton from "@/components/shared/button";
 
 export function ArticlesSection() {
   const articlesData = [
@@ -29,12 +29,7 @@ export function ArticlesSection() {
         <h2 className="text-2xl md:text-3xl font-semibold">
           Our articles and news
         </h2>
-        <Button
-          asChild
-          size="lg"
-className="rounded-full border border-zinc-200 bg-white px-8 h-12 text-base font-medium text-black shadow-sm transition-colors duration-300 hover:bg-black hover:text-white dark:border-zinc-800 dark:bg-zinc-900 dark:text-white dark:hover:bg-white dark:hover:text-black shrink-0 sm:self-start md:self-auto"        >
-          <Link href="/products">Check all</Link>
-        </Button>
+        <MainButton text="Check all" href="/blog" />
       </div>
 
       {/* Articles Grid */}

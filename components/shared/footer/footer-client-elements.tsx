@@ -15,9 +15,9 @@ export function FooterLinks() {
 
   const lftSide: LinkItem[] = [
     { name: "home", path: "/" },
-    { name: "shop", path: "/shop" },
+    { name: "shop", path: "/products" },
     { name: "about", path: "/about" },
-    { name: "cart", path: "/cart" },
+    { name: "blog", path: "/blog" },
   ];
   const rgtSide: LinkItem[] = [
     { name: "faq", path: "/faq" },
