@@ -44,9 +44,11 @@ export async function ProductDetails({ slug }: { slug: string }) {
 
       <ProductFeatures />
 
-      <Comments category_id={product.category_id} />
       {product.category_id && (
-        <Related category_id={product.category_id} product_id={product.id} />
+        <>
+          <Comments category_id={product.category_id} product_id="" />
+          <Related category_id={product.category_id} product_id={product.id} />
+        </>
       )}
     </div>
   );

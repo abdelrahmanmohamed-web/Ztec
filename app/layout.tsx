@@ -4,8 +4,9 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/shared/header/header";
-import { UserMenu } from "@/features/auth/index";
 import { Footer } from "@/components/shared/footer/footer";
+import { CartButton } from "@/features/cart";
+import { CartProvider } from "@/features/cart";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -49,8 +50,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Header userMenuSlot={<UserMenu />} />
-          {children}
+          <Header />
+          <CartProvider>
+            {children}
+            <CartButton />
+          </CartProvider>
           <Footer />
         </ThemeProvider>
       </body>

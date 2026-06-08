@@ -1,11 +1,10 @@
 "use client";
-import { ShieldCheck, ChevronDown, Box, Headset, Loader2 } from "lucide-react";
+import { ShieldCheck, ChevronDown, Box, Headset } from "lucide-react";
 import { Product } from "@/components/shared/types";
-import { useTransition, useState } from "react";
-
+import { useState } from "react";
+import { AddToCart } from "./add-to-cart";
 export function ProductInfo({ product }: { product: Product }) {
   const [openSection, setOpenSection] = useState<string | null>(null);
-  const [isPending, startTransition] = useTransition();
 
   const menuItems = [
     {
@@ -60,22 +59,7 @@ export function ProductInfo({ product }: { product: Product }) {
         </span>
       </div>
 
-      <button
-        onClick={() =>
-          startTransition(async () => {
-            await new Promise((resolve) => setTimeout(resolve, 2000));
-            console.log("Done!");
-          })
-        }
-        disabled={isPending || product.stock <= 0}
-        className={`w-full font-medium py-4 rounded-xl shadow-lg mt-2 transition-all flex gap-4 justify-center
-          ${isPending || product.stock <= 0 ? "bg-stone-200 text-stone-400 cursor-not-allowed" : "text-white hover:bg-stone-800 active:scale-95 bg-stone-900"}`}
-      >
-        <span className={`${isPending? "animate-spin" : "hidden"}`}>
-          <Loader2/>
-        </span>
-        <p>{isPending ? "processing..." : "Add to Cart"}</p>
-      </button>
+      <AddToCart product={product} />
 
       <p className="text-stone-400 text-center text-xs px-4 mt-1">
         Estimate delivery times: 3-6 days (International) Return within 45 days.

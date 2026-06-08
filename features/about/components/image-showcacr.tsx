@@ -11,6 +11,7 @@ export default function ImageShowcase() {
             width={1248}
             height={671}
             priority
+            sizes="(max-width: 768px) 100vw, 33vw"
             className="w-full h-full object-cover"
           />
         </div>

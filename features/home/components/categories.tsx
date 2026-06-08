@@ -7,9 +7,7 @@ export function Categories() {
       {/* Top Header Row */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
         <div>
-          <h1 className="text-4xl font-bold mb-2">
-            Browse by categories
-          </h1>
+          <h1 className="text-4xl font-bold mb-2">Browse by categories</h1>
           <h2 className="text-xl">
             Explore our diverse range of categories tailored to meet your
             specific needs and interests.
@@ -28,7 +26,8 @@ export function Categories() {
             src="/home/categories/watches.png"
             alt="watches"
             fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500 m-auto mix-blend-multiply" 
+            sizes="(max-width: 768px) 100vw, 33vw"
+            className="object-cover group-hover:scale-105 transition-transform duration-500 m-auto mix-blend-multiply"
           />
           {/* Default state is slightly dimmed, full dark overlay on hover */}
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-500 p-6 flex flex-col justify-end text-white">
@@ -53,6 +52,7 @@ export function Categories() {
               src="/home/categories/displays.png"
               alt="displays"
               fill
+              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover group-hover:scale-105 transition-transform duration-500 m-auto mix-blend-multiply"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-500 p-6 flex flex-col justify-end text-white">
@@ -77,6 +77,7 @@ export function Categories() {
                 src="/home/categories/headphones.png"
                 alt="headphones"
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-500 m-auto mix-blend-multiply"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-500 p-6 flex flex-col justify-end text-white">
@@ -98,6 +99,7 @@ export function Categories() {
                 src="/home/categories/phones.png"
                 alt="phones"
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-500 m-auto mix-blend-multiply"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-500 p-6 flex flex-col justify-end text-white">

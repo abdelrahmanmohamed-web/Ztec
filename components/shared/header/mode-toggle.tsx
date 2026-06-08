@@ -4,14 +4,11 @@ import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 
-import { useState, useEffect } from "react";
+import { useHasMounted } from "@/components/shared/hooks/use-has-mounted";
 
-export  function ModeToggle() {
+export function ModeToggle() {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useHasMounted();
   if (!mounted) {
     return (
       <Button

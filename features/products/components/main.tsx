@@ -16,10 +16,9 @@ export async function Main({ searchParams }: Props) {
       | "newest"
       | undefined,
   };
-  
 
   const products = await getProducts(filters);
-console.log(products);
+
   const allProductsForCategories = await getCategories();
 
   return (

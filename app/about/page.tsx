@@ -1,4 +1,4 @@
-import AboutPage from "@/features/about/components/about-page";
+import { AboutPage } from "@/features/about";
 
 export default function About() {
   return <AboutPage />;

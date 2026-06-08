@@ -1,10 +1,9 @@
 import reviews from "@/mokdata/customers.json";
 import { getCategories } from "@/features/products";
 import { Category } from "@/components/shared/types";
-import { CommentsProps } from "../type";
+import { RelatedProductsProps } from "../type";
 
-
-export async function Comments({ category_id }: CommentsProps) {
+export async function Comments({ category_id }: RelatedProductsProps) {
   const categories: Category[] = await getCategories();
   const category = categories.find((cat) => cat.id === category_id);
 

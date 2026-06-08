@@ -15,7 +15,6 @@ export function ProductGallery({
   gallery,
 }: ProductGalleryProps) {
   const allImages = [thumbnailUrl, ...gallery];
-  console.log(allImages);
   const [activeImage, setActiveImage] = useState(thumbnailUrl);
 
   return (

@@ -1,7 +1,6 @@
 import { ProductWithDetails } from "@/components/shared/types";
 import { createClient } from "@/lib/supabase/server";
-import { CommentsProps } from "./type";
-import { revalidatePath } from "next/cache";
+import { RelatedProductsProps } from "./type";
 
 export async function getProductDetails(
   slug: string,
@@ -29,16 +28,16 @@ export async function getProductDetails(
   return data as unknown as ProductWithDetails;
 }
 
-export async function getCommets(productId: CommentsProps) {
-  const supabase = await createClient();
+// export async function getCommets(productId: RelatedProductsProps) {
+//   const supabase = await createClient();
 
-  const { data: reviews, error } = await supabase
-    .from("reviews")
-    .select("id, author, comment, created_at")
-    .eq("product_id", productId)
-    .order("created_at", { ascending: false });
+//   const { data: reviews, error } = await supabase
+//     .from("reviews")
+//     .select("id, author, comment, created_at")
+//     .eq("product_id", productId)
+//     .order("created_at", { ascending: false });
 
-  if (error) {
-    console.error("Error fetching reviews:", error.message);
-  }
-}
+//   if (error) {
+//     console.error("Error fetching reviews:", error.message);
+//   }
+// }
