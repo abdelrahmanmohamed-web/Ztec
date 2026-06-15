@@ -17,11 +17,11 @@ export function FooterLinks() {
     { name: "home", path: "/" },
     { name: "shop", path: "/products" },
     { name: "about", path: "/about" },
-    { name: "blog", path: "/blog" },
+    // { name: "blog", path: "/blog" },
   ];
   const rgtSide: LinkItem[] = [
-    { name: "faq", path: "/faq" },
-    { name: "contact", path: "/contact" },
+    // { name: "faq", path: "/faq" },
+    // { name: "contact", path: "/contact" },
     { name: "product", path: "/product" },
     { name: "404", path: "/404" },
   ];
