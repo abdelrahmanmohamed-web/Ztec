@@ -69,7 +69,7 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
           </NavigationMenuLink>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuLink
             asChild
             className={cn(
@@ -91,7 +91,7 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
           >
             <Link href="/contact">Contact</Link>
           </NavigationMenuLink>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   );
