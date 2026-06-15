@@ -9,7 +9,7 @@ export async function Home() {
   const products: Product[] = await getProducts();
   const featured: Product[] = products
     .filter((p) => p.featured)
-    .sort(() => Math.random() - 0.5)
+    // .sort(() => Math.random() - 0.5)
     .slice(0, 3);
   return (
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black">
