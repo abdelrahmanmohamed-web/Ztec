@@ -1,16 +1,19 @@
-import Link from "next/link";
+// import Link from "next/link";
 import MainButton from "@/components/shared/button";
 import { CardImage } from "@/components/shared/card";
-import { getProducts } from "@/features/products";
-import { Product } from "@/components/shared/types";
+// import { getProducts } from "@/features/products";
+// import { Product } from "@/components/shared/types";
 import { Categories } from "./categories";
 import { ArticlesSection } from "./articles";
+import {getFeaturedProducts} from "../getFeatured"
 export async function Home() {
-  const products: Product[] = await getProducts();
-  const featured: Product[] = products
-    .filter((p) => p.featured)
-    // .sort(() => Math.random() - 0.5)
-    .slice(0, 3);
+  // const products: Product[] = await getProducts();
+  // const featured: Product[] = products
+  //   .filter((p) => p.featured)
+  //   .sort(() => Math.random() - 0.5)
+  //   .slice(0, 3);
+    const featured = await getFeaturedProducts();
+
   return (
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-32 pb-16">

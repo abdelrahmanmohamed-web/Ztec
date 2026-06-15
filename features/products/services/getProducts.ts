@@ -1,5 +1,6 @@
 import { Product } from "@/components/shared/types";
 import { createClient } from "@/lib/supabase/server";
+
 export interface ProductFilters {
   category?: string;
   categoryId?: string;
