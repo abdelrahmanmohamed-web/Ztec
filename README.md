@@ -1,18 +1,191 @@
-# React + Vite
+# ETEC - Modern E-Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce frontend built with React and Vite, featuring product browsing, category filtering, cart management, and a complete checkout experience.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ETEC is a responsive online electronics store that allows users to:
 
-## React Compiler
+- Browse products by category
+- Search for products
+- View detailed product information
+- Add and manage items in the cart
+- Complete a validated checkout form
+- Explore related products
+- Enjoy a responsive experience across devices
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Features
 
-## Expanding the ESLint configuration
+### Product Catalog
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Dynamic product listing
+- Category-based filtering
+- Product detail pages
+- Related products section
+
+### Shopping Cart
+
+- Add products to cart
+- Update quantities
+- Remove products
+- Persistent cart using Local Storage
+
+### Checkout System
+
+- Form validation with Zod
+- Customer information collection
+- Credit card field formatting
+- Order summary calculation
+
+### User Experience
+
+- Responsive design
+- Product search
+- Scroll-based navigation behavior
+- Custom hooks for reusable logic
+- 404 page handling
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- React Router DOM
+
+### Styling
+
+- Tailwind CSS
+- Shadcn UI
+- Radix UI
+
+### Validation
+
+- Zod
+
+### State Management
+
+- React Context API
+- Custom Hooks
+
+---
+
+## Project Structure
+
+```bash
+src
+│
+├── components
+│   ├── Cart
+│   ├── ProductPage
+│   ├── Shop
+│   ├── Header
+│   ├── Footer
+│   └── ui
+│
+├── context
+│   ├── CartContext
+│   ├── ProductsContext
+│   └── CategoryContext
+│
+├── hooks
+│
+├── data
+│   ├── products.json
+│   └── customers.json
+│
+├── utils
+│
+└── App.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/imaginary-1374/Etec/tree/react-spa
+```
+
+Move into the project directory:
+
+```bash
+cd etec
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Available Scripts
+
+```bash
+npm run dev
+```
+
+Runs the application in development mode.
+
+```bash
+npm run build
+```
+
+Creates a production build.
+
+```bash
+npm run preview
+```
+
+Previews the production build locally.
+
+```bash
+npm run lint
+```
+
+Runs ESLint checks.
+
+---
+
+## Learning Goals
+
+This project was built to practice:
+
+- Component architecture in React
+- Context API state management
+- Custom React hooks
+- Form validation with Zod
+- Responsive UI development
+- E-commerce application structure
+- Reusable UI component design
+
+---
+
+## Future Improvements
+
+- User authentication
+- Real payment gateway integration
+- Product management dashboard
+- Order history
+- Wishlist functionality
+- Backend API integration
+
+---
+
+## Author
+
+Built by AbdElrhman Mohamed as part of the journey toward becoming a full-stack developer.
