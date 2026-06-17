@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ETEC Store
+
+A modern e-commerce storefront built with Next.js, React, TypeScript, and Supabase.
+
+## Overview
+
+ETEC Store is a responsive e-commerce application focused on clean UI, performance, and maintainable architecture.
+
+The project includes product browsing, product details pages, shopping cart functionality, authentication, checkout flow, and category filtering.
+
+## Features
+
+- Product catalog
+- Product details page
+- Category filtering
+- Shopping cart
+- Checkout page
+- User authentication
+- Password reset flow
+- Dark / Light mode
+- Responsive design
+- Feature-based folder structure
+- Server Components and Client Components
+
+## Tech Stack
+
+### Frontend
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Shadcn UI
+- Radix UI
+
+### Backend & Database
+
+- Supabase
+- Supabase Authentication
+
+## Project Structure
+
+```text
+app/
+components/
+features/
+lib/
+public/
+```
+
+### Architecture
+
+The application follows a Feature-Based Design approach.
+
+```text
+features/
+├── auth/
+├── cart/
+├── checkout/
+├── home/
+├── products/
+├── product-details/
+└── about/
+```
+
+Each feature contains its own:
+
+- Components
+- Services
+- Types
+- Business logic
+
+## Authentication Status
+
+Authentication is implemented using Supabase Auth but is currently not enforced in the shopping flow.
+
+Available flows:
+
+- Login
+- Registration
+- Password Reset
+
+## Cart System
+
+The cart system allows users to:
+
+- Add products
+- Remove products
+- Update quantities
+- View order summary
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository
+
+```bash
+git clone https://github.com/imaginary-1374/Etec/tree/Etec-Next-Ts
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Create environment variables
+
+Create a `.env.local` file:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+```
+
+### Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Future Improvements
 
-## Learn More
+- Require authentication before checkout
+- Order history per user
+- User profile management
+- Product reviews live comment
+- Admin dashboard
+- Search functionality
+- Wishlist
+- Payment integration
+- Role-based access control
 
-To learn more about Next.js, take a look at the following resources:
+## Learning Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was built to practice:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modern Next.js App Router
+- React Server Components
+- Authentication workflows
+- Feature-based architecture
+- State management patterns
+- Supabase integration
+- Scalable frontend structure
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Abdelrhman Mohamed
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend Developer focused on React, Next.js, TypeScript, and Supabase.
