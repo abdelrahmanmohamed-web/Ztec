@@ -35,11 +35,7 @@ export function ArticlesSection() {
       {/* Articles Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {articlesData.map((article) => (
-          <Link
-            key={article.id}
-            href={`/articles/${article.id}`}
-            className="group w-full"
-          >
+          <Link key={article.id} href={`/blog`} className="group w-full">
             <Card
               className="w-full h-[400px] bg-stone-100 rounded-3xl border-none shadow-none overflow-hidden relative
                          transition-all duration-300 ease-in-out

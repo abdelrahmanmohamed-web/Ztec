@@ -69,15 +69,15 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
           </NavigationMenuLink>
         </NavigationMenuItem>
 
-        {/* <NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuLink
             asChild
             className={cn(
               navigationMenuTriggerStyle(),
-              pathname === "/faq" && "bg-accent text-accent-foreground",
+              pathname === "/faq" && "bg-accent text-accent-foreground ",
             )}
           >
-            <Link href="/faq">FAQ</Link>
+            <Link href="/" className="line-through">FAQ</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
@@ -89,9 +89,9 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
               pathname === "/contact" && "bg-accent text-accent-foreground",
             )}
           >
-            <Link href="/contact">Contact</Link>
+            <Link href="/" className="line-through">Contact</Link>
           </NavigationMenuLink>
-        </NavigationMenuItem> */}
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );

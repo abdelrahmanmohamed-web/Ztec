@@ -35,7 +35,6 @@ export async function middleware(request: NextRequest) {
   return response;
 }
 
-// الـ Config ده أساسي للأداء: بيمنع الـ Middleware إنه يشتغل على الصور وملفات الـ CSS والـ JS التاتجة عن الـ Build
 export const config = {
   matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"],
 };

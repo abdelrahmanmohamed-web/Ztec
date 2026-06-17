@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 interface LinkItem {
   name: string;
   path: string;
+  disabled: boolean;
 }
 
 export function FooterLinks() {
@@ -14,16 +15,16 @@ export function FooterLinks() {
     "capitalize hover:text-zinc-800 dark:hover:text-zinc-200 active:text-zinc-800 transition-colors duration-250 cursor-pointer";
 
   const lftSide: LinkItem[] = [
-    { name: "home", path: "/" },
-    { name: "shop", path: "/products" },
-    { name: "about", path: "/about" },
-    // { name: "blog", path: "/blog" },
+    { name: "home", path: "/", disabled: false },
+    { name: "products", path: "/products", disabled: false },
+    { name: "about", path: "/about", disabled: false },
+    { name: "blog", path: "/blog", disabled: true },
   ];
   const rgtSide: LinkItem[] = [
-    // { name: "faq", path: "/faq" },
-    // { name: "contact", path: "/contact" },
-    { name: "product", path: "/product" },
-    { name: "404", path: "/404" },
+    { name: "faq", path: "/faq", disabled: true },
+    { name: "contact", path: "/contact", disabled: true },
+    { name: "product", path: "/product", disabled: true },
+    { name: "404", path: "/404", disabled: false },
   ];
 
   return (
@@ -35,8 +36,8 @@ export function FooterLinks() {
         {lftSide.map((p) => (
           <Link
             key={p.name}
-            href={p.path}
-            className={`${linkStyles} ${pathname === p.path ? "text-zinc-950 dark:text-white font-semibold" : ""}`}
+            href={p.disabled ? "/" : p.path}
+            className={`${linkStyles} ${p.disabled && " text-grey-400 line-through"} ${pathname === p.path ? "text-zinc-950 dark:text-white font-semibold" : ""}`}
           >
             {p.name}
           </Link>
@@ -50,8 +51,8 @@ export function FooterLinks() {
         {rgtSide.map((p) => (
           <Link
             key={p.name}
-            href={p.path}
-            className={`${linkStyles} ${pathname === p.path ? "text-zinc-950 dark:text-white font-semibold" : ""}`}
+            href={p.disabled ? "/" : p.path}
+            className={`${linkStyles} ${p.disabled && " line-through"} ${pathname === p.path ? " text-zinc-950 dark:text-white font-semibold" : ""}`}
           >
             {p.name}
           </Link>
