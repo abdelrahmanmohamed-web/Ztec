@@ -51,14 +51,14 @@ export function MobileMenu() {
             About
           </Link>
           <Link
-            href="/faq"
-            className="pb-2 border-b border-stone-100 text-stone-600 hover:text-stone-900 transition-colors"
+            href="/"
+            className="line-through pb-2 border-b border-stone-100 text-stone-600 hover:text-stone-900 transition-colors"
           >
             FAQ
           </Link>
           <Link
-            href="/contact"
-            className="pb-2 border-b border-stone-100 text-stone-600 hover:text-stone-900 transition-colors"
+            href="/"
+            className="line-through pb-2 border-b border-stone-100 text-stone-600 hover:text-stone-900 transition-colors"
           >
             Contact
           </Link>
