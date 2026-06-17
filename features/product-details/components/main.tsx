@@ -6,12 +6,13 @@ import { Related } from "./related";
 import { Dot } from "lucide-react";
 import Link from "next/link";
 import { ProductInfo } from "./product-info";
+import { notFound } from "next/navigation";
 
 export async function ProductDetails({ slug }: { slug: string }) {
   const product = await getProductDetails(slug);
 
   if (!product) {
-    return <div className="pt-32 text-center">Product not found</div>;
+    notFound();
   }
 
   return (
