@@ -1,10 +1,9 @@
 import { CheckoutMain } from "@/features/checkout";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Secure Checkout | Minimalist Store",
-  description:
-    "Complete your order safely using our secure minimalist checkout process.",
+  title: "Checkout",
+  description: "Complete your purchase securely and place your order at Etec.",
 };
 
 export default function CheckoutPage() {

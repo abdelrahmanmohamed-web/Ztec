@@ -1,6 +1,6 @@
 # ETEC Store
 
-<img src="public/Screenshot.png" alt="ETEC Store Screenshot" width="800" />
+<img src="assets/Screenshot.png" alt="ETEC Store Screenshot" width="800" />
 
 A modern e-commerce storefront built with Next.js, React, TypeScript, and Supabase.
 

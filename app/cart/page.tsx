@@ -1,9 +1,10 @@
 import { CartMain } from "@/features/cart";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopping Cart | Minimalist Store",
-  description: "Review your selected items and proceed to checkout.",
+  title: "Shopping Cart",
+  description:
+    "Review the products in your cart before proceeding to checkout.",
 };
 
 export default function CartPage() {
