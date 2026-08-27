@@ -8,7 +8,7 @@ export function CardImage({ product }: { product: Product }) {
   return (
     <Link href={`/products/${product.slug}`} className="group w-full">
       <Card
-        className="w-full h-[400px] bg-stone-100 rounded-3xl border-none shadow-none overflow-hidden relative
+        className="w-full h-100 bg-stone-100 rounded-3xl border-none shadow-none overflow-hidden relative
                          transition-all duration-300 ease-in-out
                          md:group-hover:scale-[1.01] md:group-hover:saturate-[1.15] md:group-hover:contrast-[1.05]
                          active:scale-[1.01]"

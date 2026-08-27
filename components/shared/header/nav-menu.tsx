@@ -77,7 +77,7 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
               pathname === "/faq" && "bg-accent text-accent-foreground ",
             )}
           >
-            <Link href="/" className="line-through">FAQ</Link>
+            <Link href="/faq">FAQ</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
@@ -89,7 +89,7 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
               pathname === "/contact" && "bg-accent text-accent-foreground",
             )}
           >
-            <Link href="/" className="line-through">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

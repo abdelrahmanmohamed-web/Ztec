@@ -1,7 +1,6 @@
 import MainButton from "@/components/shared/button";
 import { CardImage } from "@/components/shared/card";
 import { Categories } from "./categories";
-import { ArticlesSection } from "./articles";
 import { getFeaturedProducts } from "../getFeatured";
 export async function Home() {
   const featured = await getFeaturedProducts();
@@ -16,8 +15,7 @@ export async function Home() {
                 Elevate your lifestyle with premium essentials.
               </h1>
               <p className="text-lg text-zinc-600 dark:text-zinc-400">
-                Elevate your daily routine with our meticulously selected
-                premium goods and curated essentials.
+                Elevate your daily routine with our meticulously selected premium goods and curated essentials.
               </p>
             </div>
             <MainButton text="Browse all products" href="/products" />
@@ -29,7 +27,6 @@ export async function Home() {
             ))}
           </div>
           <Categories />
-          <ArticlesSection />
         </main>
       </div>
     </div>

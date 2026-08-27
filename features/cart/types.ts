@@ -10,5 +10,8 @@ export interface CartContextType {
   decrementQuantity: (id: string) => void;
   removeItem: (id: string) => void;
   totalItems: number;
+  subTotalPrice: number;
+  taxRate: number;
+  taxes: number;
   totalPrice: number;
 }

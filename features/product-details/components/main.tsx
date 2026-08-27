@@ -1,7 +1,6 @@
 import { getProductDetails } from "../services";
 import { ProductGallery } from "./product-gallery";
 import { ProductFeatures } from "./product-features";
-import { Comments } from "./comments";
 import { Related } from "./related";
 import { Dot } from "lucide-react";
 import Link from "next/link";
@@ -43,11 +42,10 @@ export async function ProductDetails({ slug }: { slug: string }) {
         </div>
       </div>
 
-      <ProductFeatures />
+      <ProductFeatures category={product.category?.name} />
 
       {product.category_id && (
         <>
-          <Comments category_id={product.category_id} product_id="" />
           <Related category_id={product.category_id} product_id={product.id} />
         </>
       )}

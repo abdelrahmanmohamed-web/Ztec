@@ -1,18 +1,39 @@
-import Image from "next/image";
 import Link from "next/link";
 
-export function Logo({size = 48}) {
+export function Logo() {
   return (
     <Link href="/">
       <div className="flex items-center gap-1 cursor-pointer">
-        <Image
-          src="/logo.png"
-          alt="etec logo"
-          width={size}
-          height={size}
-          className="dark:invert"
-        />
-        <span className="font-semibold text-3xl md:text-2xl">etec</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 100"
+          width="10%"
+          height="10%"
+        >
+          <g fill="currentColor" stroke="none">
+            <path
+              d="M 28 20 
+             C 23 20, 20 23, 20 28 
+             C 20 31, 22 34, 25 37 
+             L 68 80 
+             C 72 84, 78 84, 82 80 
+             C 84 78, 85 75, 85 70 
+             L 85 62 
+             L 36 22 
+             C 34 20, 31 20, 28 20 Z"
+            />
+
+            <path
+              d="M 46 51 
+             L 25 72 
+             C 21 76, 21 82, 25 86 
+             C 28 89, 34 89, 38 86 
+             L 57 62 
+             Z"
+            />
+          </g>
+        </svg>
+        <span className="font-semibold text-3xl md:text-2xl">Etec Store</span>
       </div>
     </Link>
   );

@@ -15,7 +15,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-
+import Image from "next/image";
 export function CartButton() {
   const {
     items,
@@ -23,8 +23,12 @@ export function CartButton() {
     decrementQuantity,
     removeItem,
     totalItems,
+    subTotalPrice,
+    taxRate,
+    taxes,
     totalPrice,
   } = useCart();
+
   const { isOpen, setIsOpen } = useCloseOnNavigate();
   const hasMounted = useHasMounted();
 
@@ -119,6 +123,18 @@ export function CartButton() {
                 className="flex items-start gap-4 pb-4 border-b border-stone-100"
               >
                 <div className="flex-1 min-w-0">
+                  {item.thumbnail_url && (
+                    <div className="relative h-14 w-14 min-w-14 bg-stone-100 overflow-hidden border border-stone-100">
+                      <Image
+                        src={item.thumbnail_url}
+                        alt={item.name}
+                        fill
+                        sizes="56px"
+                        className="object-cover"
+                      />
+                    </div>
+                  )}
+
                   <h4 className="text-sm font-medium text-stone-900 truncate">
                     {item.name}
                   </h4>
@@ -174,28 +190,36 @@ export function CartButton() {
         {/* Footer with Actions */}
         {items.length > 0 && (
           <div className="border-t border-stone-200 bg-stone-50 p-4 space-y-4">
-            <div className="flex items-center justify-between text-sm">
-              <span className="text-stone-500 font-light">Subtotal</span>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center justify-between">
+                <span className="text-stone-500 font-light">Subtotal</span>
+                <span className="font-normal text-stone-900">
+                  {subTotalPrice.toFixed(2)}$
+                </span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-stone-500 font-light">
+                  Tax ({taxRate}%)
+                </span>
+                <span className="font-normal text-stone-900">
+                  {taxes.toFixed(2)}$
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between pt-2 border-t border-stone-200">
+              <span className="text-sm font-medium">Total</span>
               <span className="font-medium text-base">
-                ${totalPrice.toFixed(2)}
+                {totalPrice.toFixed(2)}$
               </span>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <Button
-                asChild
-                variant="outline"
-                className="w-full border-stone-300 text-stone-700 hover:bg-stone-100 hover:text-stone-900 rounded-none py-5 text-xs font-normal tracking-wide transition-colors"
-              >
-                <Link href="/cart">View Full Cart</Link>
-              </Button>
-              <Button
-                asChild
-                className="w-full bg-stone-900 text-stone-50 hover:bg-stone-800 rounded-none py-5 text-xs font-normal tracking-wide transition-colors"
-              >
-                <Link href="/checkout">Proceed to Checkout</Link>
-              </Button>
-            </div>
+            <Button
+              asChild
+              className="w-full bg-stone-900 text-stone-50 hover:bg-stone-800 rounded-none py-5 text-xs font-normal tracking-wide transition-colors"
+            >
+              <Link href="/checkout">Proceed to Checkout</Link>
+            </Button>
           </div>
         )}
       </DrawerContent>

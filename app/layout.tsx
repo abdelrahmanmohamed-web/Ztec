@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/shared/header/header";
 import { Footer } from "@/components/shared/footer/footer";
 import { CartButton } from "@/features/cart";
@@ -95,19 +94,12 @@ export default function RootLayout({
       )}
     >
       <body className="min-h-full flex flex-col">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Header />
-          <CartProvider>
-            {children}
-            <CartButton />
-          </CartProvider>
-          <Footer />
-        </ThemeProvider>
+        <Header />
+        <CartProvider>
+          {children}
+          <CartButton />
+        </CartProvider>
+        <Footer />
       </body>
     </html>
   );

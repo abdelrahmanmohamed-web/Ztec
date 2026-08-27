@@ -16,11 +16,11 @@ export function Categories() {
       </div>
 
       {/* Categories Grid System */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-[600px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-150">
         {/* Left Side: Single Block */}
         <Link
-          className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-[300px] md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
-          href="/products"
+          className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-75 md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
+          href="/products?category=watches"
         >
           <Image
             src="/home/categories/watches.png"
@@ -32,11 +32,12 @@ export function Categories() {
           {/* Default state is slightly dimmed, full dark overlay on hover */}
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-500 p-6 flex flex-col justify-end text-white">
             <h2 className="text-2xl font-bold transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-              All products
+              Watches
             </h2>
             <p className="text-sm font-medium text-neutral-200 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 line-clamp-3">
-              Discover endless possibilities with our All Products category.
-              Shop now for everything you need in one convenient place.
+              Shop premium watches for men and women. A diverse selection from
+              top brands offering high quality and lasting durability. Discover
+              your next favorite timepiece today.
             </p>
           </div>
         </Link>
@@ -45,8 +46,8 @@ export function Categories() {
         <div className="grid grid-rows-1 md:grid-rows-2 gap-4 h-auto md:h-full">
           {/* Right Top Block */}
           <Link
-            className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-[200px] md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
-            href="/products"
+            className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-50 md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
+            href="/products?category=displays"
           >
             <Image
               src="/home/categories/displays.png"
@@ -70,8 +71,8 @@ export function Categories() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 h-auto md:h-full">
             {/* Right Bottom Left */}
             <Link
-              href="/products"
-              className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-[200px] md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
+              href="/products?category=headphones"
+              className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-50 md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
             >
               <Image
                 src="/home/categories/headphones.png"
@@ -92,8 +93,8 @@ export function Categories() {
 
             {/* Right Bottom Right */}
             <Link
-              href="/products"
-              className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-[200px] md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
+              href="/products?category=phones"
+              className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-50 md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
             >
               <Image
                 src="/home/categories/phones.png"

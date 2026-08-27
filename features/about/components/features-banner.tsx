@@ -20,17 +20,17 @@ export default function FeaturesBanner() {
   ];
 
   return (
-    <section className="w-full bg-white flex flex-row flex-nowrap justify-center items-center gap-[10px] h-auto overflow-hidden relative p-4 md:p-[40px]">
-      <div className="w-full lg:w-1 lg:flex-1 flex flex-col lg:flex-row flex-nowrap justify-center items-center gap-6 lg:gap-[24px] max-w-[1248px] h-auto lg:h-[140px] rounded-[20px] overflow-hidden relative py-6 px-4 md:px-12 lg:py-[24px] lg:px-[80px]">
+    <section className="w-full bg-white flex flex-row flex-nowrap justify-center items-center gap-2.5 h-auto overflow-hidden relative p-4 md:p-10">
+      <div className="w-full lg:w-1 lg:flex-1 flex flex-col lg:flex-row flex-nowrap justify-center items-center gap-6 lg:gap-6 max-w-312 h-auto lg:h-35 rounded-[20px] overflow-hidden relative py-6 px-4 md:px-12 lg:py-6 lg:px-20">
         {features.map((f) => (
           <div
             key={f.label}
-            className="w-full lg:w-1 lg:flex-1 h-full flex flex-row flex-nowrap justify-start items-center gap-[16px] overflow-hidden relative p-2 lg:p-[16px]"
+            className="w-full lg:w-1 lg:flex-1 h-full flex flex-row flex-nowrap justify-start items-center gap-4 overflow-hidden relative p-2 lg:p-4"
           >
-            <div className="w-[64px] h-[64px] flex flex-row flex-nowrap justify-center items-center gap-[10px] bg-white rounded-[16px] overflow-hidden shrink-0 relative p-0 border border-[#e6e6e6]">
+            <div className="w-16 h-16 flex flex-row flex-nowrap justify-center items-center gap-2.5 bg-white rounded-4 overflow-hidden shrink-0 relative p-0 border border-[#e6e6e6]">
               {f.icon}
             </div>
-            <div className="w-full flex flex-col justify-start items-start gap-[4px] overflow-hidden relative p-0">
+            <div className="w-full flex flex-col justify-start items-start gap-1 overflow-hidden relative p-0">
               <p className="w-full text-base font-medium text-black tracking-tight font-['Satoshi',sans-serif] whitespace-normal">
                 {f.label}
               </p>

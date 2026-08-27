@@ -46,7 +46,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       const existingItem = prev.find((i) => i.id === id);
       if (!existingItem) return prev;
       if (existingItem.quantity === 1) {
-        return prev.filter((i) => i.id !== id);
+        return prev;
       }
       return prev.map((i) =>
         i.id === id ? { ...i, quantity: i.quantity - 1 } : i,
@@ -59,11 +59,14 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   }
 
   const totalItems = items.reduce((total, item) => total + item.quantity, 0);
-  const totalPrice = items.reduce(
+  const subTotalPrice = items.reduce(
     (total, item) => total + item.price * item.quantity,
     0,
   );
 
+  const taxRate = 0.14;
+  const taxes = subTotalPrice * taxRate;
+  const totalPrice = taxes + subTotalPrice;
   return (
     <CartContext.Provider
       value={{
@@ -72,6 +75,9 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         removeItem,
         decrementQuantity,
         totalItems,
+        subTotalPrice,
+        taxRate,
+        taxes,
         totalPrice,
       }}
     >

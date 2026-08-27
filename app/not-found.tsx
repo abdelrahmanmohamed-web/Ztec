@@ -1,4 +1,3 @@
-import Link from "next/link";
 import MainButton from "@/components/shared/button";
 
 export default function NotFound() {
@@ -19,12 +18,6 @@ export default function NotFound() {
         </div>
         <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <MainButton text="Go back home" href="/" />
-          <Link
-            href="/blogs"
-            className="text-sm font-medium text-stone-600 hover:text-stone-950 transition-colors duration-200 underline underline-offset-4"
-          >
-            Read our blog
-          </Link>
         </div>
       </div>
     </section>

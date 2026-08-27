@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export default function CtaSection() {
   return (
-    <section className="px-6 py-24 max-w-[1248px] mx-auto md:px-12 lg:px-16 bg-white space-y-24">
+    <section className="px-6 py-24 max-w-312 mx-auto md:px-12 lg:px-16 bg-white space-y-24">
       
       {/* الجزء الأول: الصورة شمال والكلام يمين (في الشاشات الكبيرة) */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* الصورة */}
-        <div className="bg-gray-100 rounded-[20px] aspect-[4/3] overflow-hidden relative border border-[#e6e6e6]">
+        <div className="bg-gray-100 rounded-[20px] aspect-4/3 overflow-hidden relative border border-[#e6e6e6]">
           <Image
             src="/About-us/cta-1.jpg"
             alt="Premium Tech Selection"
@@ -36,7 +36,7 @@ export default function CtaSection() {
       {/* الجزء الثاني: الكلام شمال والصورة يمين (في الشاشات الكبيرة) */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* الصورة */}
-        <div className="bg-gray-100 rounded-[20px] aspect-[4/3] overflow-hidden relative border border-[#e6e6e6] lg:order-2">
+        <div className="bg-gray-100 rounded-[20px] aspect-4/3 overflow-hidden relative border border-[#e6e6e6] lg:order-2">
           <Image
             src="/About-us/cta-2.jpg"
             alt="Timeless Tech Solutions"
@@ -56,7 +56,7 @@ export default function CtaSection() {
             integrate into your life, promising years of reliable performance
             and timeless appeal.
           </p>
-          <MainButton text="Check our blog" href="/blog" />
+          <MainButton text="Check our contact" href="/contact" />
         </div>
       </div>
 
