@@ -33,7 +33,7 @@ export function Logo() {
             />
           </g>
         </svg>
-        <span className="font-semibold text-3xl md:text-2xl">Etec Store</span>
+        <span className="font-semibold text-3xl md:text-2xl">Ztec Store</span>
       </div>
     </Link>
   );
