@@ -89,7 +89,7 @@ The cart system allows users to:
 - Add products
 - Remove products
 - Update quantities
-- View order summary
+- View order total price with taxes
 
 ## Getting Started
 
@@ -128,7 +128,6 @@ http://localhost:3000
 
 ## Future Improvements
 
-- Require authentication before checkout
 - Order history per user
 - User profile management
 - Product reviews live comment
