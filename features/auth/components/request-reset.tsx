@@ -26,7 +26,7 @@ export function RequestReset() {
     <div className="flex min-h-screen w-full flex-col items-center justify-center bg-zinc-50 p-4 font-sans dark:bg-black md:p-8">
       <div className="w-full max-w-md rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 md:p-10">
         <div className="mb-6 flex flex-col items-center justify-center gap-2 md:mb-8">
-          <Logo size={58} />
+          <Logo/>
           <h1 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-white md:text-2xl">
             Reset your password
           </h1>
