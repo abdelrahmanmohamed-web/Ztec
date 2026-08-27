@@ -96,7 +96,7 @@ The cart system allows users to:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/imaginary-1374/Ztec/tree/Ztec-Next-Ts
+git clone https://github.com/imaginary-1374/Ztec/tree/ztec
 ```
 
 ### Install dependencies
