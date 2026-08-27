@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: "https://etec-one.vercel.app/sitemap.xml",
+    sitemap: "https://Ztec-one.vercel.app/sitemap.xml",
   };
 }

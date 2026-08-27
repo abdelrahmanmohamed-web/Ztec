@@ -1,12 +1,12 @@
-# ETEC Store
+# ZtecStore
 
-<img src="assets/Screenshot.png" alt="ETEC Store Screenshot" width="800" />
+<img src="assets/Screenshot.png" alt="ZtecStore Screenshot" width="800" />
 
 A modern e-commerce storefront built with Next.js, React, TypeScript, and Supabase.
 
 ## Overview
 
-ETEC Store is a responsive e-commerce application focused on clean UI, performance, and maintainable architecture.
+ZtecStore is a responsive e-commerce application focused on clean UI, performance, and maintainable architecture.
 
 The project includes product browsing, product details pages, shopping cart functionality, authentication, checkout flow, and category filtering.
 
@@ -96,7 +96,7 @@ The cart system allows users to:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/imaginary-1374/Etec/tree/Etec-Next-Ts
+git clone https://github.com/imaginary-1374/Ztec/tree/Ztec-Next-Ts
 ```
 
 ### Install dependencies

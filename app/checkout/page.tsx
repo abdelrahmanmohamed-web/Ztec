@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Checkout",
-  description: "Complete your purchase securely and place your order at Etec.",
+  description: "Complete your purchase securely and place your order at Ztec.",
 };
 
 export default function CheckoutPage() {

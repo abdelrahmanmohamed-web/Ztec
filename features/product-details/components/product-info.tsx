@@ -97,7 +97,7 @@ export function ProductInfo({ product }: { product: Product }) {
                   <div className="pb-5 px-8 text-sm text-stone-500 leading-relaxed">
                     {item.id === "warranty" && (
                       <p>
-                        Etec offers a two-year manufacturer warranty on all new
+                        Ztecoffers a two-year manufacturer warranty on all new
                         headphones purchased from authorized retailers in most
                         countries. Refurbished products purchased from
                         authorized retailers are covered by a one-year
@@ -121,7 +121,7 @@ export function ProductInfo({ product }: { product: Product }) {
                     {item.id === "support" && (
                       <p>
                         Our support team is available 24/7 to help you with any
-                        technical inquiries or issues regarding your Etec
+                        technical inquiries or issues regarding your Ztec
                         products. Get in touch via live chat or email for fast
                         assistance.
                       </p>

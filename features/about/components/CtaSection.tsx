@@ -51,7 +51,7 @@ export default function CtaSection() {
             Timeless Tech Solutions
           </h2>
           <p className="text-gray-500 leading-relaxed mb-8 font-['Satoshi',sans-serif]">
-            At Etec, we eschew passing trends in favor of enduring value and
+            At Ztec, we eschew passing trends in favor of enduring value and
             utility. Our commitment? To offer tech solutions that seamlessly
             integrate into your life, promising years of reliable performance
             and timeless appeal.

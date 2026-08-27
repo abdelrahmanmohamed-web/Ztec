@@ -49,9 +49,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: product.name,
 
-    description: product.description ?? `Buy ${product.name} online at Etec.`,
+    description: product.description ?? `Buy ${product.name} online at Ztec.`,
 
-    keywords: [product.name, "electronics", "shopping", "Etec"],
+    keywords: [product.name, "electronics", "shopping", "Ztec"],
 
     alternates: {
       canonical: `/products/${product.slug}`,
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       url: `/products/${product.slug}`,
       title: product.name,
-      description: product.description ?? `Buy ${product.name} online at Etec.`,
+      description: product.description ?? `Buy ${product.name} online at Ztec.`,
       images: [
         {
           url: image,
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: product.name,
-      description: product.description ?? `Buy ${product.name} online at Etec.`,
+      description: product.description ?? `Buy ${product.name} online at Ztec.`,
       images: [image],
     },
   };

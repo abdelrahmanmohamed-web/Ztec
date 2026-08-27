@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Etec",
-    short_name: "Etec",
+    name: "Ztec",
+    short_name: "Ztec",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

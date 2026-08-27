@@ -19,20 +19,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://etec-one.vercel.app";
+const siteUrl = "https://ztec-one.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "Etec",
-    template: "%s | Etec",
+    default: "Ztec",
+    template: "%s | Ztec",
   },
 
   description:
     "Discover premium electronics including smartphones, headphones, smartwatches, and displays.",
 
-  applicationName: "Etec",
+  applicationName: "Ztec",
 
   keywords: [
     "electronics",
@@ -55,16 +55,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Etec",
+    siteName: "Ztec",
     locale: "en_US",
-    title: "Etec",
+    title: "Ztec",
     description:
       "Discover premium electronics including smartphones, headphones, smartwatches, and displays.",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Etec",
+    title: "Ztec",
     description:
       "Discover premium electronics including smartphones, headphones, smartwatches, and displays.",
   },

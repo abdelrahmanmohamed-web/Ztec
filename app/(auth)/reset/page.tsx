@@ -3,8 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Reset Password",
-  description:
-    "Request a password reset to regain access to your Etec account.",
+  description: "Request a password reset to regain access to your Ztecaccount.",
 };
 
 export default function RequestResetPage() {
