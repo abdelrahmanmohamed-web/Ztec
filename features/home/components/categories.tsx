@@ -23,7 +23,7 @@ export function Categories() {
           href="/products?category=watches"
         >
           <Image
-            src="/home/categories/watches.png"
+            src="/home/watches.png"
             alt="watches"
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
@@ -50,7 +50,7 @@ export function Categories() {
             href="/products?category=displays"
           >
             <Image
-              src="/home/categories/displays.png"
+              src="/home/displays.png"
               alt="displays"
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -75,7 +75,7 @@ export function Categories() {
               className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-50 md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
             >
               <Image
-                src="/home/categories/headphones.png"
+                src="/home/headphones.png"
                 alt="headphones"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -97,7 +97,7 @@ export function Categories() {
               className="relative group overflow-hidden rounded-xl bg-neutral-100 block h-50 md:h-full transition-all duration-300 shadow-sm border border-neutral-200"
             >
               <Image
-                src="/home/categories/phones.png"
+                src="/home/phones.png"
                 alt="phones"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
