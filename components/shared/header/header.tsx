@@ -11,12 +11,12 @@ export async function Header() {
         <Logo />
 
         {/* Desktop View */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden xl:flex items-center gap-4">
           <NavigationMenuDemo categories={categories} />
         </div>
 
         {/* Mobile View */}
-        <div className="flex md:hidden items-center gap-2">
+        <div className="flex xl:hidden items-center gap-2">
           <MobileMenu />
         </div>
       </div>

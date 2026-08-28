@@ -35,7 +35,7 @@ export function NavigationMenuDemo({ categories }: NavigationMenuDemoProps) {
             Products
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="w-96">
+            <ul className="w-[calc(100vw-3rem)] max-w-xs lg:w-76 p-4">
               <ListItem
                 href="/products"
                 title="All Products"
